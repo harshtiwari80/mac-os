@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Nav from './components/windows/Nav';
+import Nav from './components/Nav';
 import "./app.scss";
 import Doc from './components/Doc';
 import Github from './components/windows/Github';
