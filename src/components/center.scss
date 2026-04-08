@@ -1,0 +1,48 @@
+.center-widget {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    animation: fadeIn 0.8s ease-in-out;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    }
+    
+ @keyframes fadeIn {
+      from {
+         opacity: 0;
+         transform: translate(-50%, -40%);
+     }
+    
+     to {
+         opacity: 1;
+         transform: translate(-50%, -50%);
+     }
+}
+
+.center-widget h1 {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.center-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.center-buttons button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}

@@ -1,0 +1,62 @@
+.window{
+    
+
+    background-color: rgb(23, 22, 22);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    height: 100%; 
+    color: #b7a9a9;
+    font-weight: 400;
+
+    .nav{
+
+        padding-inline: 0.75rem;
+        padding-block: 0.5rem;
+        border-bottom: 1px solid #b7a9a943;
+
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+
+        .dots {
+            display: flex;
+            gap: 0.25rem;
+
+            .dot {
+                    height: 15px;
+                    width: 15px;
+            
+                    border-radius: 50%;
+            
+                    background-color: rgb(255, 0, 0);
+            
+                    margin: 5px;
+                }
+
+            .red{
+                background-color: #d93737;
+                cursor: pointer;
+            }
+            .yellow{
+                background-color: #d9b937;
+            }
+            .green{
+                background-color: #37d937;    
+            }
+        
+        }
+    }
+
+    .main-content{
+        height: 100%;
+    }
+
+    *::-webkit-scrollbar{
+        width: 0.5rem;
+    }
+
+    *::-webkit-scrollbar-thumb{
+        background-color: #b7a9a9;
+        border-radius: 4px;
+    }
+}
